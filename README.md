@@ -36,3 +36,11 @@ GetAwsLog.py
     Command:
     
       python /home/ubuntu/getawslog.py -b <bucketName> -d -j -D -l /mnt/amazon.log
+      
+RunningButNotConnectedInstanceAWS.py
+
+    This script will give the list of running Instance of AWS which are not connected to Ossec .
+   
+    Command:
+   
+       python RunningButNotConnectedInstanceAWS.py <accessKey> <secretKey>
