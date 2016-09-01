@@ -1,0 +1,9 @@
+# for tetsing ssh 
+hydra -L /home/ubuntu/user.txt -P /home/ubuntu/pwd.txt -s 22 <ip> ssh
+
+# for testing ftp
+hydra -L /home/ubuntu/user.txt -P /home/ubuntu/pwd.txt <IP> ftp
+
+#for testing mysql
+hydra -L /home/ubuntu/user.txt -P /home/ubuntu/pwd.txt -s 3306 <ip> mysql
+
