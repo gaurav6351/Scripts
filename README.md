@@ -1,4 +1,4 @@
-# README File for User 
+# README 
 
 ListAwsRunningInstances.py
 
